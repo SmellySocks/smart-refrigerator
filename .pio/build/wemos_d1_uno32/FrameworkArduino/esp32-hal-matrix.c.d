@@ -30,6 +30,7 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/hal.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/tie.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/system.h \
@@ -48,6 +49,7 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/specreg.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xt_instr_macros.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/spinlock.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/cpu.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_cpu.h \
@@ -98,4 +100,5 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-bt.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-psram.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rgb-led.h \
- /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-cpu.h
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-cpu.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_pins.h

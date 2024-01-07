@@ -18,26 +18,28 @@
 #endif
 #endif
 
-SoftwareSerial swSer;
+EspSoftwareSerial::UART swSer;
 #ifdef ESP8266
-auto logSer = SoftwareSerial(-1, TX);
+auto logSer = EspSoftwareSerial::UART(-1, TX);
 auto hwSer = Serial;
 #else
 auto logSer = Serial;
 auto hwSer = Serial1;
 #endif
 
+constexpr uint32_t TESTBPS = 115200;
+
 void setup() {
 	delay(2000);
 #ifdef ESP8266
-	hwSer.begin(115200, SERIAL_8N1);
+	hwSer.begin(TESTBPS, ::SERIAL_8N1);
 	hwSer.swap();
 #else
-	hwSer.begin(115200, SERIAL_8N1, -1, D5);
+	hwSer.begin(TESTBPS, ::SERIAL_8N1, D6, D5);
 #endif
 	logSer.begin(115200);
 	logSer.println(PSTR("\nOne Wire Half Duplex Bitpattern and Datarate Test"));
-	swSer.begin(115200, SWSERIAL_8N1, -1, D5);
+	swSer.begin(TESTBPS, EspSoftwareSerial::SWSERIAL_8N1, D6, D5);
 	swSer.enableIntTx(true);
 	logSer.println(PSTR("Tx on swSer"));
 }

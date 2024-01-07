@@ -9,6 +9,7 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/hal.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-isa.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/core-matmap.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/tie.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/system.h \
@@ -27,6 +28,7 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/esp32/include/xtensa/config/specreg.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime-core-state.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xt_instr_macros.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/xtensa/include/xtensa/xtruntime.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/spinlock.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/cpu.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/esp_cpu.h \
@@ -127,10 +129,15 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash_counters.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  .pio/libdeps/wemos_d1_uno32/EspSoftwareSerial/src/SoftwareSerial.h \
  .pio/libdeps/wemos_d1_uno32/EspSoftwareSerial/src/circular_queue/circular_queue.h \
  .pio/libdeps/wemos_d1_uno32/EspSoftwareSerial/src/circular_queue/Delegate.h \
- .pio/libdeps/wemos_d1_uno32/SparkFun\ Simultaneous\ RFID\ Tag\ Reader\ Library/src/SparkFun_UHF_RFID_Reader.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFi.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPv6Address.h \
@@ -175,6 +182,7 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/def.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/ip6_zone.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/err.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_netif/include/esp_netif_sta_list.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_wifi/include/esp_smartconfig.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/wifi_provisioning/include/wifi_provisioning/manager.h \
@@ -184,9 +192,285 @@
  /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiAP.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiScan.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
- /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiServer.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiUdp.h \
  /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
- /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/ssl_client.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/platform.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/mbedtls/esp_config.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/config.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/check_config.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/esp_mem.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/net.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/net_sockets.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/ssl.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/mbedtls/bignum.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/bignum.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/ecp.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/pk.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/md.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/platform_util.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/rsa.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/cipher.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/x509_crt.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/x509.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/asn1.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/dhm.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/ecdh.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/debug.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/entropy.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/sha512.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/sha512_alt.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/sha_types.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/sha.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/aes.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/aes_alt.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/port/include/aes/esp_aes.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/aes_types.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/error.h \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson.h \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Configuration.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Array/JsonArray.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Array/ElementProxy.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantRefBase.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/Converter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Namespace.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/preprocessor.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/version.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/JsonVariantConst.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Memory/MemoryPool.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Memory/Alignment.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/assert.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/mpl/max.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/StringAdapters.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/conditional.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/enable_if.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/integral_constant.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_array.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_base_of.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_reference.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_class.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/declval.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_const.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_convertible.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_enum.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_floating_point.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_same.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_cv.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_integral.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_pointer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_signed.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/is_unsigned.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_unsigned.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/type_identity.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/make_void.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/type_traits/remove_const.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/Adapters/JsonString.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/Adapters/RamString.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/attributes.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/StoragePolicy.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/StringAdapter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/JsonString.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/Adapters/StringObject.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/StringTraits.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/Adapters/FlashString.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantSlot.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/integer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/limits.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantContent.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Collection/CollectionData.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Numbers/JsonFloat.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Numbers/JsonInteger.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Strings/IsString.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantAttorney.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantTo.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantFunctions.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantData.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Misc/SerializedValue.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Numbers/convertNumber.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Numbers/FloatTraits.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/alias_cast.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/math.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/pgmspace_generic.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/Visitor.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantOperators.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Numbers/arithmeticCompare.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantTag.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Array/JsonArrayConst.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Array/JsonArrayIterator.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/JsonVariant.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/SlotFunctions.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Object/JsonObject.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Object/JsonObjectConst.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Object/JsonObjectIterator.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Object/JsonPair.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Object/MemberProxy.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Document/DynamicJsonDocument.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Document/BasicJsonDocument.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Document/JsonDocument.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Document/StaticJsonDocument.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Array/JsonArrayImpl.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Array/Utilities.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Collection/CollectionImpl.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Object/JsonObjectImpl.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/ConverterImpl.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/JsonSerializer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/TextFormatter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/EscapeSequence.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Numbers/FloatParts.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/CountingDecorator.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/measure.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/Writers/DummyWriter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/serialize.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/Writer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/Writers/StaticStringWriter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStringWriter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/Writers/ArduinoStringWriter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/Writers/StdStreamWriter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Serialization/Writers/PrintWriter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantCompare.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Variant/VariantImpl.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Numbers/parseNumber.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/ctype.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/JsonDeserializer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/deserialize.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationError.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/DeserializationOptions.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Filter.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/NestingLimit.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Reader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Polyfills/utility.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Readers/IteratorReader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Readers/RamReader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Readers/VariantReader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStreamReader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Readers/ArduinoStringReader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Readers/FlashReader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Deserialization/Readers/StdStreamReader.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/StringStorage/StringStorage.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/StringStorage/StringCopier.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/StringStorage/StringMover.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/Latch.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/Utf16.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/Utf8.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/Json/PrettyJsonSerializer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackDeserializer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/MsgPack/endianess.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/MsgPack/ieee754.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/MsgPack/MsgPackSerializer.hpp \
+ .pio/libdeps/wemos_d1_uno32/ArduinoJson/src/ArduinoJson/compatibility.hpp \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/FS/src/FS.h \
+ .pio/libdeps/wemos_d1_uno32/PNGdec/src/PNGdec.h \
+ .pio/libdeps/wemos_d1_uno32/PNGdec/src/zutil.h \
+ .pio/libdeps/wemos_d1_uno32/PNGdec/src/zlib.h \
+ .pio/libdeps/wemos_d1_uno32/PNGdec/src/zconf.h \
+ .pio/libdeps/wemos_d1_uno32/PNGdec/src/inftrees.h \
+ .pio/libdeps/wemos_d1_uno32/PNGdec/src/inflate.h src/logo.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/TFT_eSPI.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/User_Setup_Select.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/User_Setup.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/TFT_Drivers/ILI9341_Defines.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Processors/TFT_eSPI_ESP32.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_reg.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/spi_master.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/driver/include/driver/spi_common.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/lldesc.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_rom/include/esp32/rom/lldesc.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/include/soc/spi_periph.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/periph_defs.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/soc_pins.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_pins.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_pins.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/sdio_slave_pins.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/sdmmc_pins.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/spi_struct.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/spi_types.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/esp32/include/hal/gpio_ll.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_cntl_reg.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/soc/esp32/include/soc/rtc_io_reg.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/platform_port/include/hal/misc.h \
+ /Users/michal/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src/SPIFFS.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/glcdfont.c \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font16.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font16.c \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font32rle.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font32rle.c \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font64rle.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font64rle.c \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font7srle.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font7srle.c \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font72rle.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Font72rle.c \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/gfxfont.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/TomThumb.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMono9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMono12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMono18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMono24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoOblique24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBold9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBold12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBold18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBold24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeMonoBoldOblique24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSans9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSans12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSans18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSans24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansOblique9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansOblique12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansOblique18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansOblique24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBold9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBold12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBold18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBold24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSansBoldOblique24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerif9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerif12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerif18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerif24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifItalic24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBold9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBold12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBold18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBold24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic9pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic12pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic18pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/GFXFF/FreeSerifBoldItalic24pt7b.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/User_Setups/User_Custom_Fonts.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Custom/Orbitron_Light_24.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Custom/Orbitron_Light_32.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Custom/Roboto_Thin_24.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Custom/Satisfy_24.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Fonts/Custom/Yellowtail_32.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Extensions/Touch.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Extensions/Smooth_font.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Extensions/Button.h \
+ .pio/libdeps/wemos_d1_uno32/TFT_eSPI/Extensions/Sprite.h \
+ .pio/libdeps/wemos_d1_uno32/SparkFun\ Simultaneous\ RFID\ Tag\ Reader\ Library/src/SparkFun_UHF_RFID_Reader.h
